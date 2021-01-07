@@ -363,3 +363,6 @@ export function waitForAll<RecoilValues extends { [key: string]: RecoilValue<any
 /* eslint-enable @typescript-eslint/no-explicit-any */
 
 export function snapshot_UNSTABLE(initializeState?: (shapshot: MutableSnapshot) => void): Snapshot;
+
+export const AppContext: React.Context<any>
+export const MutableSourceContext: React.Context<any>
